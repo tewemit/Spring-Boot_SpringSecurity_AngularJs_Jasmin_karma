@@ -1,0 +1,111 @@
+
+.top-menu a{
+    color: white;
+}
+
+.logo
+{
+    width: 40px;
+    height: 100px;
+    display: block;
+}
+.search{
+
+}
+.welcome{
+    background-image: url('../images/bodybg.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 250px;
+    text-align: center;
+
+}
+.loginForm
+{
+    max-width: 300px;
+    alignment: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.well-body {
+    margin: 150px 30px 30px 30px;
+}
+
+a.clickable {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    background-color: #bad5d8;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 168px;
+    padding-left: 20px;
+
+}
+.footer {
+    background-color:#829ebf;
+    text-align: right;
+    bottom: 0px;
+
+}
+/*This is an alternative to the steps with circular bgs*/
+.step1 {
+    background: url(circle1.jpg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+}
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    opacity: 0.4;
+}
+.circle1 {
+    width: 70px;
+    height: 70px;
+    background: #1b6d85;
+    color: white;
+    text-align: center;
+
+    vertical-align: top;
+    margin-top: 5px;
+
+}
+.circle2 {
+    width: 60px;
+    height: 60px;
+    background: #985f0d;
+    color: white;
+    margin-left: 15px;
+
+    /*border: 1px solid #000;*/
+}
+.circle3 {
+    width: 80px;
+    height: 80px;
+    background: #3c763d;
+    color: white;
+
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+
+
+@media  (max-width: 500px) {
+    .clickable {
+        display: block;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        text-decoration: none;
+        background-color: #bad5d8;
+        text-align: center;
+        vertical-align: middle;
+        min-height: 168px;
+        padding-bottom: 20px;
+        padding-left: 20px;;
+    }
+}

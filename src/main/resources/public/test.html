@@ -1,0 +1,54 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="row welcome">
+<div ng-controller="getByEmailCtl" ng-cloak class="ng-cloak" ng-show="authenticated" style="float: left; width: 300px; border: dashed; border-color: #2a6496">
+
+</div>
+<h1>Front-end test using jasmin and karma </h1>
+<div ng-show="authenticated" class="row">
+    <p>You're in the Logged-in-users area</p>
+</div>
+
+</div>
+<h1>Greeting</h1>
+<div ng-controller="testCtl" ng-cloak class="ng-cloak">
+    <p>The ID is {{greeting.id}}</p>
+    <p>The content is {{greeting.content}}</p>
+</div>
+
+<div class="row" style="padding-bottom: 20px">
+
+    <div class="col-md-3 ">
+        <a class="clickable" href="#/analys">
+            <img src="images/Icon1.PNG"><br/>
+            Analyspaket
+        </a>
+    </div>
+    <div class="col-md-3 " >
+        <a class="clickable" href="#/sogardettill">
+            <img src="images/Icon2.PNG"><br/>
+            Så går det till</a>
+    </div>
+    <div class="col-md-3">
+        <a class="clickable" href="#/omoss">
+            <img src="images/Icon3.PNG"><br/>
+            Om Oss</a>
+    </div>
+    <div class="col-md-3">
+        <a href="#/foretaget" class="clickable">
+            <img src="images/Icon4.PNG"><br/>
+            Företaget</a>
+    </div>
+
+</div>
+<div class="row footer" >
+    <p>ipsum lorumipsum lorum ipsum lorum</p>
+    <p>ipsum lorumipsum lorum ipsum lorum</p>
+</div>
+
+<script src="js/angular-bootstrap.js" type="text/javascript"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/app.js"></script>

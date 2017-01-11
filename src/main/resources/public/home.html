@@ -1,0 +1,55 @@
+
+<div class="row welcome">
+<div ng-controller="getByEmailCtl" ng-cloak class="ng-cloak" ng-show="authenticated" style="float: left; width: 300px; border: dashed; border-color: #2a6496">
+    <br>
+    <br>
+    <p>MinSida</p>
+    <p>Name: {{username}}</p>
+    <p>Username:  {{username}}</p>
+    <p>Email:  {{email}}</p>
+</div>
+<h1>TA KONTROLL ÖVER DIN HÄLSA </h1>
+<h3>HÄLSOKONTROLL OCH BLODANALYS PÅ NÄTET</h3>
+<div ng-show="authenticated" class="row">
+    <p>You're in the Logged-in-users area</p>
+</div>
+<div  ng-show="!authenticated" class="row">
+    <p>Loga in och välkomen att få våran tjänster!</p>
+</div>
+</div>
+<section style="text-align: center">
+    <h4>Vi hjälper dig att ta kontroll över din hälsa</h4>
+    <p>Vi hjälper dig att ta kontroll över din hälsa</p>
+</section>
+
+<div class="row" style="padding-bottom: 20px">
+
+    <div class="col-md-3 ">
+        <a class="clickable" href="#/analys">
+            <img src="images/Icon1.PNG"><br/>
+            Analyspaket
+        </a>
+    </div>
+    <div class="col-md-3 " >
+        <a class="clickable" href="#/sogardettill">
+            <img src="images/Icon2.PNG"><br/>
+            Så går det till</a>
+    </div>
+    <div class="col-md-3">
+        <a class="clickable" href="#/omoss">
+            <img src="images/Icon3.PNG"><br/>
+            Om Oss</a>
+    </div>
+    <div class="col-md-3">
+        <a href="#/foretaget" class="clickable">
+            <img src="images/Icon4.PNG"><br/>
+            Företaget</a>
+    </div>
+
+</div>
+<div class="row footer" >
+    <p>ipsum lorumipsum lorum ipsum lorum</p>
+    <p>ipsum lorumipsum lorum ipsum lorum</p>
+</div>
+
+

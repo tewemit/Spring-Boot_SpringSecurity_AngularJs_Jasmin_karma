@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="row" style="padding-left: 10px">
+        <div class="col-md-4">
+            <h1> Så går det till</h1>
+            <div style="padding-top: 10px">
+                <div class=" circleBase circle1" style="float: left; margin-left: 15px;position: relative"><h1>1</h1>
+                </div>
+
+                <p style="margin-left: 100px; position: relative">Beställ Analyspaket
+                    Lämna prover style=" position: relative" Lämna prover style=" position: relative" Lämna prover
+                </p>
+            </div>
+
+            <div style="padding-top: 10px">
+                <div class=" circleBase circle2"
+                     style="float: right; margin-right: 25px; position: relative;overflow: visible;max-width: 60px"><h1>
+                    2</h1></div>
+                <p style=" position: relative">Lämna prover
+                    style=" position: relative" Lämna prover
+                    style=" position: relative" Lämna prover
+                </p>
+            </div>
+            <div style="padding-top: 10px">
+                <div class=" circleBase circle3"
+                     style="float: left; margin-left: 15px;margin-top: -5px;position: relative;"><h1>3</h1>
+
+                </div>
+                <p style="margin-top: -5px;  margin-left: -10px">Få provsvar och läkarutlåtande
+                    Lämna prover style=" position: relative" Lämna prover style=" position: relative" Lämna prover
+                </p>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <p>Tick pic</p>
+            <p>lämna prover pic</p>
+            <p>Få svar pic pic</p>
+        </div>
+    </div>
+    <div ng-controller="faqCtl" class="col-md-12" id="faqList" style="background-color: #dddddd; position: relative; padding-left: 10px"
+         ng-model="faqs">
+        <h2 style="color: #5e5e5e;font-family:'Viner Hand ITC' ">Vanliga frågor</h2>
+
+        <div ng-repeat="faq in faqs" class="col-md-4" style="width: 40%; position: relative">
+
+            <div class="row-content" style="padding-top: 5px">
+                <h3 class="list-group-item-heading" style="color: #5e5e5e;font-family:'sans-serif' ">{{faq.question}} </h3>
+
+                <p class="list-group-item-text" style="justify-content: center"><b><em><strong>{{faq.answer}} </strong></em></b>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-md-8"></div>
+
+
+    </div>
+</div>

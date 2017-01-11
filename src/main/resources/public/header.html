@@ -1,0 +1,43 @@
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top top-menu" style="background-color:#829ebf ">
+    <div ng-controller="navigationCtl" class="container row" >
+        <ul class="nav nav-pills navbar-right top-menu" role="tablist">
+            <li class="active" ><a href="#/">Home</a></li>
+            <li ng-show="!authenticated"><a href="#/login" class="page-scroll">Login </a></li>
+            <li> <a href="#/addfaq" class="page-scroll">Add FAQ </a></li>
+            <li ng-show="authenticated" ><a href="" ng-click="logout()">Logout</a></li>
+            <li ><a href="" ng-click="search()">Sök</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<header style="margin-top: 50px" class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="col-md-2 navbar-brand"><a href="#/"><img src="/images/logo.PNG" width="200px" /></a></div>
+    </div>
+    <div class="container">
+        <div class="row" >
+
+            <div class="col-md-10" style="margin-top: 5px;  position: relative ">
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav nav-pills navbar-right " role="tablist">
+                        <li ><a href="#/" class="target">Analyspaket</a></li>
+                        <li ><a href="#/" class="text-primary ">Provtagningsställen</a></li>
+                        <li ><a href="#/">Så går det till</a></li>
+                        <li ><a href="#/">Om oss</a></li>
+                        <li ><a href="#/">Företagshälsa</a></li>
+                        <li ><a href="#/">Specilaistförmedling</a></li>
+                        <button type="submit" class="btn ">Test button</button>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
